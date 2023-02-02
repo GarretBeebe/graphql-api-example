@@ -1,0 +1,32 @@
+{
+	"info": {
+		"_postman_id": "927ab5ad-0737-47e0-b092-8075e78832bd",
+		"name": "graphql",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "755692"
+	},
+	"item": [
+		{
+			"name": "graphql api example ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "graphql",
+					"graphql": {
+						"query": "{\n  books {\n    title\n    author\n  }\n}",
+						"variables": ""
+					}
+				},
+				"url": {
+					"raw": "localhost:4000",
+					"host": [
+						"localhost"
+					],
+					"port": "4000"
+				}
+			},
+			"response": []
+		}
+	]
+}
